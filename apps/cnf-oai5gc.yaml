@@ -7,7 +7,7 @@ releaseDate: 2024-01-12T23:20:50.52Z
 manifests:
    - name: oai-5g-basic
      sourceRepo: harbor2 
-     chartVersion: 2.0.0
+     chartVersion: v2.0.0
      path: library
      valuesRepo: gh-tca-gitops-values
      valuesRepoRevision: HEAD
