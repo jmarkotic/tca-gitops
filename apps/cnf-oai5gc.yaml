@@ -1,0 +1,16 @@
+name: oai5gc-cnf
+kind: cnf
+provider: OAI 
+productName: core5ge
+version: "2.0.0"
+releaseDate: 2024-01-12T23:20:50.52Z
+manifests:  
+   - name: oai-5gc-basic    
+     sourceRepo: tca-gitops-manifests    
+     sourceRepoRevision: HEAD 
+     path: demo    
+     valuesRepo: tca-gitops-values 
+     valuesRepoRevision: HEAD    
+     valuesFiles:      
+        - values_oai5gc.yaml
+namespace: oai 
