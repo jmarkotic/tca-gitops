@@ -8,10 +8,9 @@ manifests:
    - name: oai-5gc-basic    
      sourceRepo: gh-tca-gitops-manifests    
      sourceRepoRevision: HEAD 
-     path: /
+     path: helm
      valuesRepo: gh-tca-gitops-values 
      valuesRepoRevision: HEAD    
      valuesFiles:      
         - values_oai5gc.yaml
-namespace: oai2
- 
+namespace: oai
