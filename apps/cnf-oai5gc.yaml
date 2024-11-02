@@ -5,7 +5,7 @@ productName: core5g
 version: "2.0.0"
 releaseDate: 2024-01-12T23:20:50.52Z
 manifests:  
-   - name: oai-5gc-basic    
+   - name: oai-5g-basic    
      sourceRepo: harbor2    
      chartVersion: 2.0.0
      path: library 
