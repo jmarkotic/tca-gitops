@@ -1,16 +1,17 @@
 name: oai5gc-cnf
 kind: cnf
-provider: OAI 
+provider: OAI
 productName: core5g
 version: "2.0.0"
 releaseDate: 2024-01-12T23:20:50.52Z
-manifests:  
-   - name: oai-5g-basic    
-     sourceRepo: harbor2    
+manifests:
+   - name: oai-5g-basic
+     sourceRepo: gh-tca-gitops-manifests
+     sourceRepoRevision: HEAD
      chartVersion: 2.0.0
-     path: library 
-     valuesRepo: gh-tca-gitops-values 
-     valuesRepoRevision: HEAD    
-     valuesFiles:      
+     path: library
+     valuesRepo: gh-tca-gitops-values
+     valuesRepoRevision: HEAD
+     valuesFiles:
         - values_oai5gc.yaml
 namespace: oai
