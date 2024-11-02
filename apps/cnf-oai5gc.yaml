@@ -12,4 +12,5 @@ manifests:
      valuesRepoRevision: HEAD    
      valuesFiles:      
         - values_oai5gc.yaml
-namespace: oai 
+namespace: oai2
+ 
