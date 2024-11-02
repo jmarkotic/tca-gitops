@@ -8,7 +8,6 @@ manifests:
    - name: oai-5g-basic
      sourceRepo: gh-tca-gitops-manifests
      sourceRepoRevision: HEAD
-     chartVersion: 2.0.0
      path: library
      valuesRepo: gh-tca-gitops-values
      valuesRepoRevision: HEAD
