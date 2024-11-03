@@ -8,5 +8,6 @@ manifests:
    - name: metallb 
      sourceRepo: gh-tca-gitops-manifests
      sourceRepoRevision: HEAD
+     path: /
 namespace: test
  
