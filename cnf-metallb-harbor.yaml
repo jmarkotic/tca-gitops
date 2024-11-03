@@ -1,0 +1,12 @@
+name: metal1 
+kind: cnf
+provider: metal 
+productName: metal-lb 
+version: "0.13.5"
+releaseDate: 2024-01-12T23:20:50.52Z
+manifests:
+   - name: metallb 
+     sourceRepo: harbor-old 
+     chartVersion: 0.13.5
+namespace: test
+ 
