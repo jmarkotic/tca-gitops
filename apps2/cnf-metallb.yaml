@@ -8,8 +8,8 @@ manifests:
    - name: metallb 
      sourceRepo: gh-tca-gitops-manifests 
      sourceRepoRevision: HEAD
-     path: / 
-   - nginx.yaml
+     path: library 
+   - name nginx.yaml
      sourceRepo: gh-tca-gitops-manifests
      sourceRepoRevision: HEAD
      path: library
