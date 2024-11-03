@@ -9,5 +9,9 @@ manifests:
      sourceRepo: gh-tca-gitops-manifests 
      sourceRepoRevision: HEAD
      path: library 
+   - nginx.yaml
+     sourceRepo: gh-tca-gitops-manifests
+     sourceRepoRevision: HEAD
+     path: library
 namespace: test
  
