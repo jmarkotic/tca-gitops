@@ -9,7 +9,7 @@ manifests:
      sourceRepo: gh-tca-gitops-manifests 
      sourceRepoRevision: HEAD
      path: library 
-   - name nginx.yaml
+   - name: nginx.yaml
      sourceRepo: gh-tca-gitops-manifests
      sourceRepoRevision: HEAD
      path: library
