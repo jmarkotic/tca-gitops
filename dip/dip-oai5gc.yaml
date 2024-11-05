@@ -1,0 +1,25 @@
+name: dip-metallb
+kind: dip
+version: 1
+nodePools:
+ - np1
+config:
+   nodeConfiguration:
+      network:
+        devices:
+          - deviceType: vmxnet3
+            networkName: dpgData1-vlan11
+            resourceName: N2
+            interfaceName: N2
+            count: 1
+            isSharedAcrossNuma: false
+            derivedFromCsar: false
+          - deviceType: vmxnet3
+            networkName: dpgData1-vlan10
+            resourceName: N3
+            interfaceName: N3
+            count: 1
+            isSharedAcrossNuma: false
+            derivedFromCsar: false
+      iommuEnabled: false
+
