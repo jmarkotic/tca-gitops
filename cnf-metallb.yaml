@@ -10,4 +10,7 @@ manifests:
      sourceRepoRevision: HEAD
      path: metallb 
 namespace: metallb-system 
+dip:
+   name: dip-oai5gc
+   version: 1
  
