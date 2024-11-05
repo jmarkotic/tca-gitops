@@ -9,7 +9,7 @@ manifests:
      sourceRepo: git-tca-gitops-manifests
      sourceRepoRevision: HEAD
      # path=directory name with helm manifest files
-     path: oai-5g-basic
+     path: helm/oai-5g-basic
      valuesRepo: git-tca-gitops-manifests
      valuesRepoRevision: HEAD
      # values files are stored in directory /values and then referenced excplicitly
